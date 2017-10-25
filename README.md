@@ -1,4 +1,4 @@
-var gl = canvas.getContext("webgl2") || canvas.getContext("experimental-webgl2");
+var gl = canvas.getContext("webgl2") canvas.getContext("experimental-webgl2");
 var compileShader = function(prog, src, type){
     var sh = gl.createShader(type);
     gl.shaderSource(sh, src.replace(/^\n/, ""));
