@@ -1,22 +1,159 @@
-# Compiled class file
-*.class
+var gl = canvas.getContext("webgl2") canvas.getContext("experimental-webgl2");
+var compileShader = function(prog, src, type){
+    var sh = gl.createShader(type);
+    gl.shaderSourcereplace(/^\n/, ""));
+    gl.compileShader(sh);
+    if (!gl.getShaderParameter(sh, gl.COMPILE_STATUS)) {
+      console.log(gl.getShaderInfoLog(sh));
+    }    
+    gl.attachShader(prog, sh);
+    gl.deleteShader(sh);
+};
+        
+var p = gl.createProgram();
+compileShader(p, vs.text, gl.VERTEX_SHADER);
+compileShader(p, fs.text, gl.FRAGMENT_SHADER);
+gl.linkProgram(p);
+gl.useProgram(ormLocation(p, "resolution"), canvas.width, canvas.height);
 
-# Log file
-*.log
+var zero = Date.now();
+(function () { 
+    gl.clear(gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT);
+    gl.uniform1f(gl.getUniformLocation(p, "time"), (Date.now() - zero) * 0.001);
+    gl.drawArrays(gl.TRIANGLE_STRIP, 0, 4);
+    requestAnimationFrame(arguments.callee);
+})();
+var gl = canvas.getContext("webgl2") canvas.getContext("experimental-webgl2");
+var compileShader = function(prog, src, type){
+    var sh = gl.createShader(type);
+    gl.shaderSource(sh, src.replace(/^\n/, ""));
+    gl.compileShader(sh);
+    if (!gl.getShaderParameter(sh, gl.COMPILE_STATUS)) {
+      console.log(gl.getShaderInfoLog(sh));
+    }    
+    gl.attachShader(prog, sh);
+    gl.deleteShader(sh);
+};
+        eateProgram();
+compileShader(p, vs.text, gl.VERTEX_SHADER);
+compileShader(p, fs.text, gl.FRAGMENT_SHADER)
+    requestAnimationFrame(arguments.callee);
+})();
+var p = gl.createProgram();
+compileShader(p, vs.text, gl.VERTEX_SHADER);
+compileShader(p, fs.text, gl.FRAGMENT_SHADER);
+gl.linkProgram(p);
+gl.useProgram(p);
+gl.uniform2f(gl.getUniformLocation(p, "resolution"), canvas.width, canvas.height);
 
-# BlueJ files
-*.ctxt
+var zero = Date.now();
+(function () { 
+    gl.clear(gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT);
+    gl.uniform1f(gl.getUniformLocation(p, "time"), (Date.now() - zero) * 0.001);
+    gl.drawArrays(gl.TRIANGLE_STRIP, 0, 4);
+    requestAnimationFrame(arguments.callee);
+})();
+var gl = canvas.getContext("webgl2") canvas.getContext("experimental-webgl2");
+var compileShader = function(prog, src, type){  gl.compileShader(sh);
+    if (!gl.getShaderParameter(sh, gl.COMPILE_STATUS)) {
+      console.log(gl.getShaderInfoLog(sh));
+    }    
+    gl.attachShader(prog, sh);
+    gl.deleteShader(sh);
+};
+        
+var p = gl.createProgram();
+compileShader(p, vs.text, gl.VERTEX_SHADER);
+compileShader(p, fs.text, gl.FRAGMENT_SHADER);
+gl.linkProgram(p);
+gl.useProgram(p);
+gl.uniform2f(gl.getUniformLocation(p, "resolution"), canvas.width, canvas.height);
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+var zero = Date.now();
+(function () { 
+    gl.clear(gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT);
+    gl.uni;
+})();
+var gl = canvas.getContext("webgl2") canvas.getContext("experimental-webgl2");
+var compileShader = function(prog, src, type){
+    var sh = gl.createShader(type);
+    gl.shaderSource(sh, src.replace(/^\n/, ""));
+    gl.compileShader(sh);
+    if (!gl.getShaderParameter(sh, gl.COMPILE_STATUS)) {
+      console.log(gl.getShaderInfoLog(sh));
+    }    
+    gl.attachShader(prog, sh);
+    gl.deleteShader(sh);
+};
+        
+var p = gl.createProgram();
+compileShader(p, vs.text, gl.VERTEX_SHADER);
+compileShader(p, fs.text, gl.FRAGMENT_SHADER);
+gl.linkProgram(p);
+gl.useProgram(p);
+gl.uniform2f(gl.getUniformLocation(p, "resolution"), canvas.width, canvas.height);
 
-# Package Files #
-*.jar
-*.war
-*.ear
-*.zip
-*.tar.gz
-*.rar
+var zero = Date.now();
+(function () { 
+    gl.clear(gl. "time"), (Date.now() - zero) * 0.001);
+    gl.drawArrays(gl.TRIANGLE_STRIP, 0, 4);
+    requestAnimationFrame(arguments.callee);
+})();
+var gl = canvas.getContext("webgl2") canvas.getContext("experimental-webgl2");
+var compileShader = function(prog, src, type){
+    var sh = gl.createShader(type);
+    gl.shaderSource(sh, src.replace(/^\n/, ""));
+    gl.compileShader(sh);
+    if (!gl.getShaderParameter(sh, gl.COMPILE_STATUS)) {
+      console.log(gl.getShaderInfoLog(sh));
+    }    
+    gl.attachShader(prog, sh);
+    gl.deleteShader(sh);
+};
+        
+var p = gl.createProgram();
+compileShader(p, vs.text, gl.VERTEX_SHADER);
+compileShader(p, fs.text, gl.FRAGMENT_SHADER);
+gl.linkProgram(p);
+gl.useProgram(p);
+gl.uniform2f(gl.getUniformLocation(p, "resolution"), canvas.width, canvas.height);
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+var zero = Date.now();
+(function () { 
+    gl.clear(gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT);
+    gl.uniform1f(gl.getUniformLocation(p,l-webgl2");
+var compileShader = function(prog, src, type){
+    var sh = gl.createShader(type);
+    gl.shaderSource(sh, src.replace(/^\n/, ""));
+    gl.compileShader(sh);
+var zero = Date.now();
+(function () { 
+    gl.clear(gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT);
+    gl.uniform1f(gl.g_STRIP, 0, 4);
+    requestAnimationFrame(arguments.callee);
+})();
+var gl = canvas.getContext("webgl2") canvas.getContext("experimental-webgl2");
+var compileShadeAGMENT_SHADER);
+gl.linkProgram(p);
+gl.useProgram(p);
+gl.uniform2f(gl.getUniformLocation(p, "resolution"), canvas.width, canvas.height);
+
+var zero = Date.now();
+(function () { 
+    gl.clear(gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT);
+    gl.uniform1f(gl.getGLE_STRIP, 0, 4);
+    requestAnimationFrame(arguments.callee);
+})();\.height);
+
+var zero = Date.now();
+var p = gl.createProgram();
+compileShader(p, vs.text, gl.VERTEX_SHADER);
+compileShader(p, fs.text, gl.FRAGMENT_SHADER);
+gl.linkProgram(p);
+gl.useProgram(p);
+gl.uniform2f(gl.getUniformLocation(p, "resolution"), canvas.width, canvas.height);
+
+var zero = Date.now();
+(function () { 
+    gl.clear(gl.COme(arguments.callee);
+})();
